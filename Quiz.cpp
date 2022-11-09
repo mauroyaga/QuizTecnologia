@@ -2,8 +2,8 @@
  /* 
     Nome do Programa: Quiz
     
-    Descrição do Programa: O programa eexibe três perguntas, com três alternativas cada.
-    Cada vez que o usuário acerta, ele pontua, e ao final recebe o valor da pontuação total.
+    DescriÃ§Ã£o do Programa: O programa exibe trÃªs perguntas, com trÃªs alternativas cada.
+    Cada vez que o usuÃ¡rio acerta, ele pontua, e ao final recebe o valor da pontuaÃ§Ã£o total.
     Autor: Mauro Cesar Yaga Junior 
     Data: 
  */
@@ -23,13 +23,13 @@ main(){
 	printf("|    VAMOS JOGAR    |\n");
 	printf("=====================\n");
 	
-	printf("\nEste jogo tem 3 perguntas relacionadas a tecnologia, com três opções cada!\n");
-	printf("\nA cada pergunta certa você pontua!\n");
+	printf("\nEste jogo tem 3 perguntas relacionadas a tecnologia, com trÃªs opÃ§Ãµes cada!\n");
+	printf("\nA cada pergunta certa vocÃª pontua!\n");
 	printf("\nA 1 vale 10 pontos!\n");
 	printf("\nA 2 vale 20 pontos!\n");
 	printf("\nA 3 vale 30 pontos!\n");
 	
-	printf("\nVamos ver do que é capaz? Boa sorte!\n");
+	printf("\nVamos ver do que Ã© capaz? Boa sorte!\n");
 	
 	system("\pause");
 	
@@ -41,22 +41,22 @@ main(){
 	
 	
 	printf("==================================\n");
-	printf("|1.Criador da lógica de circuitos|\n");
+	printf("|1.Criador da lÃ³gica de circuitos|\n");
 	printf("|2.Inventor da impressora        |\n");
 	printf("|3.Criador do mouse              |\n");
 	printf("==================================\n");
 	
-	printf("\nDigite a opção da sua resposta:");
+	printf("\nDigite a opÃ§Ã£o da sua resposta:");
 	scanf("%d", &opcao);
 	
 	switch (opcao)
 	{
 		case 1:
-			printf("Parabéns, resposta certa! 10 pontos!!!\n");
+			printf("ParabÃ©ns, resposta certa! 10 pontos!!!\n");
 			pont1 = 10;
 			break;
 		default :
-			printf("Errou! Mas calma, as próximas valem mais\n");
+			printf("Errou! Mas calma, as prÃ³ximas valem mais\n");
 			pont2 = 0;
 			break;
 	} /*fim switch 1*/
@@ -67,26 +67,26 @@ main(){
 	printf("|     PERGUNTA 2    |\n");
 	printf("=====================\n\n");
 	
-	printf("Por que é utilizado silicio nos circuitos integrados?\n");
+	printf("Por que Ã© utilizado silicio nos circuitos integrados?\n");
 	
 	
 	printf("=================================\n");
-	printf("|1.Porque são super condutores  |\n");
-	printf("|2.Porque são semicondutores    |\n");
-	printf("|3.Porque são resistores        |\n");
+	printf("|1.Porque sÃ£o super condutores  |\n");
+	printf("|2.Porque sÃ£o semicondutores    |\n");
+	printf("|3.Porque sÃ£o resistores        |\n");
 	printf("=================================\n");
 	
-	printf("\nDigite a opção da sua resposta: \n");
+	printf("\nDigite a opÃ§Ã£o da sua resposta: \n");
 	scanf("%d", &opcao);
 	
 	switch (opcao)
 	{
 		case 2:
-			printf("Parabéns, resposta certa! 20 pontos!!!\n");
+			printf("ParabÃ©ns, resposta certa! 20 pontos!!!\n");
 			pont2 = 20;
 			break;
 		default :
-			printf("Errou! Utima chance, A próxima tem que acertar\n");
+			printf("Errou! Utima chance, A prÃ³xima tem que acertar\n");
 			pont2 = 0;
 			break;
 			
@@ -107,19 +107,19 @@ main(){
 	printf("|3.100.000.000 de Bytes  |\n");
 	printf("==========================\n");
 	
-	printf("\nDigite a opção da sua resposta: \n");
+	printf("\nDigite a opÃ§Ã£o da sua resposta: \n");
 	scanf("%d", &opcao);
 	
 	switch (opcao)
 	{
 		case 3:
-			printf("Parabéns, resposta certa! 30 pontos!!!\n");
+			printf("ParabÃ©ns, resposta certa! 30 pontos!!!\n");
 			printf("Yoooou Winnnnn!!!\n");
 			
 			pont3 = 30;
 			break;
 		default :
-			printf("Errou!, Desta vez não deu!\n");
+			printf("Errou!, Desta vez nÃ£o deu!\n");
 			pont3 = 0;
 			break;
 			
@@ -127,7 +127,7 @@ main(){
 	
 	pontuacao = pont1+pont2+pont3;
 	
-	printf("Sua pontuação foi: %d\n", pontuacao);
+	printf("Sua pontuaÃ§Ã£o foi: %d\n", pontuacao);
 	
 system("pause");	                            
 return 0;                                         
